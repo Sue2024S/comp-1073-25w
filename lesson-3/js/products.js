@@ -41,3 +41,4 @@ for (let i = 0; i < products.length; i ++) {
 	console.log(itemRow[i]);
 };
 // STEP 10: Set the total cost of the invoice as the textContent of the TD in the TFOOT (var totalData), rounding the number to two decimal places
+// testing git
