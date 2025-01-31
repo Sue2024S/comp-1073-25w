@@ -3,7 +3,16 @@ let courseList = 'My courses this term are ';
 const msg = document.querySelector('#courses');
 /* STEP 1a: A simple FOR loop
 A simple loop of this structure needs an initializer (counter variable), an exit conditional, and and incrementor/decrementor */
-
+for (let i = 0; i < courses.lenght; i ++) {
+	//Check to see if we are in the last course in the list
+	if (i === courses.length -1) {
+		//Finish the sentence properly
+		courseList += `${courses[i]}.`;
+	} else { 
+		//Add each course to the sentence
+		courseList += `${courses[i]}, `;
+	}	
+};
 msg.textContent = courseList;
 // STEP 1b: Add a conditional for the last item in the array so we can finish the sentence with a period.
 
@@ -14,13 +23,24 @@ const input = document.querySelector('input');
 const btn = document.querySelector('button#cities');
 
 btn.addEventListener('click', function() {
-	var searchName = input.value;
+	let searchName = input.value;
+	console.log(searchName);
 	input.value = '';
 	input.focus();
 	/* STEP 2a: Create a FOR loop to iterate through the cities array */
-
+	for (let i = 0; i < cities.length; i ++) {
+		console.log(cities[i]);
+	
 		/* STEP 2b: Build an IF/ELSE conditional that compares searchName with cities[i] */
-
+		if (searchName === cities[i]) {
+			//Message that the citie in the search was in the array
+			result.textContent = `${searchName} is in the cities array.`;
+			//We found the city, so stop looking and exit the loop
+			break;
+		} else {
+			result.textContent = `${searchName} is NOT the cities array`;
+		};
+	};
 });
 
 
