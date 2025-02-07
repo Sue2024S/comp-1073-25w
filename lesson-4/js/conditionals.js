@@ -59,10 +59,11 @@ function setWeather() {
 	} else {
 		comments.textContent = 'You did not specify the type of weather, today.';
 	}
+	
 	// STEP 4d: NOT - ! (It's NOT rainy)
 	if (choice !== "rainy") {
 		comments.textContent += ' No sign of rain.';
-	}
+	};
 
 	// Weather icons by Cole Bemis - https://feathericons.com/, MIT, https://commons.wikimedia.org/w/index.php?curid=60153354
 
@@ -99,8 +100,8 @@ let speed = Number(windSpeed.value);
 		break;
 	default:
 		windComment.textContent = "As calm as it gets.";
-	}
-} // End of getWindSpeed() function
+	};
+}; // End of getWindSpeed() function
 
 
 /* STEP 6: Ternary operator
