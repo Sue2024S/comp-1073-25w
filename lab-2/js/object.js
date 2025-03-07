@@ -20,3 +20,9 @@ function Car(name, category, numModel, color, numCategory, numSeries, year, made
         return description;
     };
 };
+
+const car1 = new Car("Brick Rides", "Bricking Speed", "128/250", "red, yellow, blue, black and white", "5/5","HKJ89-N7C5", 2021, "Malaysia", "plastic and paper", 3, "Mega", "English, French, Spanish and Russian", "004644/2021", "hotwheels.com"); 
+
+const car2 = new Car("Brick Rides", "Bricking Speed", "128/250", "red, yellow, blue, black and white", "5/5","HKJ89-N7C5", 2021, "Malaysia", "plastic and paper", 3, "Mega", "English, French, Spanish and Russian", "004644/2021", "hotwheels.com"); 
+
+const car3 = new Car("Brick Rides", "Bricking Speed", "128/250", "red, yellow, blue, black and white", "5/5","HKJ89-N7C5", 2021, "Malaysia", "plastic and paper", 3, "Mega", "English, French, Spanish and Russian", "004644/2021", "hotwheels.com"); 
