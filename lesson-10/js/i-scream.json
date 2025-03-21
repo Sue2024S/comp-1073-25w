@@ -25,6 +25,41 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : "Berry Blast",
+      "calories" : 400,
+      "type" : "sorbet",
+      "ingredients" : [
+        "strawberry purée",
+        "blueberry chunks",
+        "raspberries",
+        "blackberries",
+        "vainilla bean"
+      ],
+      "image" : "berry-blast.svg"
+    },
+      {
+        "name": "Coconut Dream",
+        "calories": 420,
+        "type": "ice-cream",
+        "ingredients": [
+          "coconut milk",
+          "toasted coconut flakes",
+          "agave syrup"
+        ],
+        "image": "coconut-dream.svg"
+      },
+      {
+        "name": "Lemon-lavender",
+        "calories": 350,
+        "type": "ice-cream",
+        "ingredients": [
+          "lemon zest",
+          "lavender honey",
+          "fresh-lemon juice"
+        ],
+        "image": "lemon-lavender.svg"
     }
   ]
 }
