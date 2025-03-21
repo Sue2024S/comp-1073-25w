@@ -37,7 +37,7 @@
         "blackberries",
         "vainilla bean"
       ],
-      "image" : "berry-blast.svg"
+      "image" : "berry-blast.jpg"
     },
       {
         "name": "Coconut Dream",
@@ -48,7 +48,7 @@
           "toasted coconut flakes",
           "agave syrup"
         ],
-        "image": "coconut-dream.svg"
+        "image": "coconut-dream.jpg"
       },
       {
         "name": "Lemon-lavender",
@@ -59,7 +59,7 @@
           "lavender honey",
           "fresh-lemon juice"
         ],
-        "image": "lemon-lavender.svg"
+        "image": "lemon-lavender.jpg"
     }
   ]
 }
