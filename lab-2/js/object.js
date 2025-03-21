@@ -1,5 +1,6 @@
 const output = document.getElementById("output");
 
+// constructor for the object
 function Car(name, category, numModel, color, numCategory, numSeries, year, madeIn, material, minAge, brand, language, numRegister, website) {
     this.name = name;
     this.category = category;
